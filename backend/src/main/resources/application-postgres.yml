@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/netchange}
+    username: ${DB_USER:netchange}
+    password: ${DB_PASSWORD:netchange}
+  jpa:
+    hibernate:
+      ddl-auto: update

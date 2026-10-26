@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: network-config-change-automator
+  datasource:
+    url: jdbc:h2:mem:netchange;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+netchange:
+  seed:
+    enabled: true
