@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { AlertCircle, CheckCircle, Clock, Zap, List, Settings, LogOut } from 'lucide-react';
+import { AlertCircle, Zap, List, Settings, LogOut } from 'lucide-react';
 import DeviceTab from './pages/DeviceTab';
 import ChangeTab from './pages/ChangeTab';
 import DryRunTab from './pages/DryRunTab';

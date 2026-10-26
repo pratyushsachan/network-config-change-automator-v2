@@ -1,11 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle, AlertTriangle, Plus, Minus } from 'lucide-react';
-import { mockChanges } from '../mockData';
 
 export default function DryRunTab() {
-  const change = mockChanges[0];
-
   const dryRunData = [
     {
       device: 'rtr-core-01',
